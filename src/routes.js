@@ -1,6 +1,6 @@
-import React from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
-import AppView from "./views/AppView";
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import AppView from './views/AppView';
 
 const Routes = props => (
   <Switch>
