@@ -19,7 +19,7 @@ var HtmlWebpackPlugin = new HtmlPlugin({
 var GlobalsPlugin = new webpack.DefinePlugin({
   'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
   __DEV__: JSON.stringify(IS_DEV),
-  __API_URL__: JSON.stringify('https://dev-mobile-api.meetv.info/v3'),
+  __API_URL__: JSON.stringify(''), // define --------URL--------
 });
 
 // https://github.com/webpack/webpack/issues/59#issuecomment-12923514
